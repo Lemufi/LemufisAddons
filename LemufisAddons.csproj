@@ -46,10 +46,6 @@
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="AudioFiles\MusicThatMakesYouPoop.wav" />
-    <Content Include="AudioFiles\RaphaelLaCruche.wav" />
-    <Content Include="AudioFiles\SpongeBobSquarePantsProductionMusic.wav" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
