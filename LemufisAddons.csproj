@@ -31,6 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>C:\Users\realp\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Profile1\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\1 - Jeux\2 - Gestionnaires De Jeux\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>C:\Users\realp\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Profile1\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,6 +48,27 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Unity.Services.Core.Networking">
+      <HintPath>..\..\..\..\1 - Jeux\2 - Gestionnaires De Jeux\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.Services.Core.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\1 - Jeux\2 - Gestionnaires De Jeux\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\1 - Jeux\2 - Gestionnaires De Jeux\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\1 - Jeux\2 - Gestionnaires De Jeux\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\..\..\1 - Jeux\2 - Gestionnaires De Jeux\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\..\..\1 - Jeux\2 - Gestionnaires De Jeux\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\..\..\1 - Jeux\2 - Gestionnaires De Jeux\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Patches\BoomBoxMusicPatch.cs" />
@@ -46,6 +76,13 @@
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="AudioFiles\RaphaelLaCruche.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AudioFiles\SpongeBobSquarePantsProductionMusic.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -31,7 +31,6 @@ namespace TestModLethalCompany
 
             // Logique pour ajouter un fichier audio à Audios -------------------------------------------------------------------------------
             ExtractAndCopyAudioFile("TestModLethalCompany.AudioFiles.RaphaelLaCruche.wav", "RaphaelLaCruche.wav");
-            ExtractAndCopyAudioFile("TestModLethalCompany.AudioFiles.MusicThatMakesYouPoop.wav", "MusicThatMakesYouPoop.wav");
             ExtractAndCopyAudioFile("TestModLethalCompany.AudioFiles.SpongeBobSquarePantsProductionMusic.wav", "SpongeBobSquarePantsProductionMusic.wav");
 
             // Patchs a utiliser au lancement -----------------------------------------------------------------------------------------------
