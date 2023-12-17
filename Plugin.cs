@@ -2,22 +2,23 @@
 using HarmonyLib;
 using System.IO;
 using System.Reflection;
+using UnityEngine;
 
 namespace TestModLethalCompany
 {
     [BepInPlugin(modGUID, modName, modVersion)]
     public class Plugin : BaseUnityPlugin
     {
-        private const string modGUID = "Lemufi.LemufisAddons";
-        private const string modName = "Lemufi's Addons";
-        private const string modVersion = "1.0.0.0"; // 1.0.0 pour vortex
+        private const string modGUID = "Lemufi.TestMod";
+        private const string modName = "LC Tutorial Mod";
+        private const string modVersion = "1.0.0.0";
         private readonly Harmony harmony = new Harmony(modGUID);
         private static Plugin Instance;
 
         // ---------------------------------------------------------------- // 
 
         /// <summary>
-        /// S'éxecute au lancement du mod
+        /// S'exécute au lancement du mod
         /// </summary>
         void Awake()
         {
@@ -26,18 +27,15 @@ namespace TestModLethalCompany
                 Instance = this;
             }
 
-            // Vérification du lancement du MOD
             Logger.LogInfo(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> MOD LEMUFI'S ADDONS OK");
 
-            // Logique pour ajouter un fichier audio à Audios -------------------------------------------------------------------------------
-            ExtractAndCopyAudioFile("TestModLethalCompany.AudioFiles.RaphaelLaCruche.wav", "RaphaelLaCruche.wav");
-            ExtractAndCopyAudioFile("TestModLethalCompany.AudioFiles.SpongeBobSquarePantsProductionMusic.wav", "SpongeBobSquarePantsProductionMusic.wav");
+            // Fichiers audio a ajouter au mod
+            ExtractAndCopyAudioFile("LemufisAddons.AudioFiles.RaphaelLaCruche.wav", "RaphaelLaCruche.wav");
+            ExtractAndCopyAudioFile("LemufisAddons.AudioFiles.SpongeBobSquarePantsProductionMusic.wav", "SpongeBobSquarePantsProductionMusic.wav");
 
-            // Patchs a utiliser au lancement -----------------------------------------------------------------------------------------------
+            // Patch a utiliser au lancement
             harmony.PatchAll(typeof(BoomboxMusicPatch));
         }
-
-        #region GestionPatchAudio
 
         private void ExtractAndCopyAudioFile(string resourceName, string fileName)
         {
@@ -65,7 +63,5 @@ namespace TestModLethalCompany
 
             Logger.LogInfo($"Fichier audio copié: {filePath}");
         }
-
-        #endregion
     }
 }

@@ -1,11 +1,9 @@
-D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\LemufisAddons.dll
-D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\LemufisAddons.pdb
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\obj\Debug\LemufisAddons.csproj.AssemblyReference.cache
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\obj\Debug\LemufisAddons.csproj.CoreCompileInputs.cache
-D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\obj\Debug\LemufisAddons.dll
-D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\obj\Debug\LemufisAddons.pdb
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\AudioFiles\RaphaelLaCruche.wav
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\AudioFiles\SpongeBobSquarePantsProductionMusic.wav
+D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\LemufisAddons.dll
+D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\LemufisAddons.pdb
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\0Harmony.dll
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\Assembly-CSharp.dll
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\BepInEx.dll
@@ -114,3 +112,5 @@ D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\BepInEx.xml
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\MonoMod.Utils.xml
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\bin\Debug\MonoMod.RuntimeDetour.xml
 D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\obj\Debug\LemufisAddons.csproj.CopyComplete
+D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\obj\Debug\LemufisAddons.dll
+D:\3 - Programmation\4 - .Net\LemufisAddons\LemufisAddons\obj\Debug\LemufisAddons.pdb
